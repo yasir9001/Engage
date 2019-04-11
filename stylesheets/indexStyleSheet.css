@@ -1,0 +1,303 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 22, 2018, 1:30:56 AM
+    Author     : Yasir
+*/
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+
+}
+.header{
+    width:100%;
+    position: fixed;
+    background-color: #ffba66;
+    box-shadow:0px 4px 8px #FFDCB2;
+    z-index: 5;
+    
+}
+
+.logo ul li,.navbar ul li{
+    display: inline;
+}
+.logo{
+    display:inline-block;
+    width:auto;
+    color: white;
+    font-size: 16px;
+    word-spacing:0px;
+    letter-spacing: 2px;
+    font-family: cursive;
+    opacity:.7;
+}
+.logo:hover{
+    opacity:1;
+    font-size:16.5px;
+
+}
+.logo ul li img {
+    vertical-align: middle;
+}
+.navbar ul li a{
+    padding:10px 20px;
+    text-decoration: none;
+    color: #000000;
+    opacity:0.7;
+    
+    
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(0,0,0,.2);
+    border-radius:5px;
+    color:white;
+    transition:.5s;
+        
+    opacity:1;
+}
+
+
+.logo ul {
+    margin:0px;
+}
+.navbar{
+    display:inline-block;
+    width: auto; 
+    float: right;
+}
+.engage{
+    padding-top: 180px;
+    width: 100%;
+    height: 500px;
+    background: url(../images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+   
+}
+.engage h1{
+    font-size:500%;
+    font-weight: normal;
+    margin:0px;
+    
+}
+.engage button{
+    color: white;
+    background-color: #9ACD32;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px;
+    margin: 120px;
+    
+    font-size: 120% 
+}
+
+button:hover{
+    background-color: #40ff40;
+}
+
+.synergize{
+    text-align: center;
+    background-color: #9ACD32;
+    color: white;
+    padding: 80px;
+}
+
+.synergize > p{
+    width: 700px;
+    margin: 20px auto;        
+}
+
+.synergize > h1{
+    width: 900px;
+    margin: 20px auto;  
+    font-size: 38px;
+    font-weight: normal;
+    
+}
+.best{
+    width:100%;
+    height: auto;
+    padding: 70px 50px 70px 100px;
+    
+    
+}
+.best div{
+    display: inline-block;
+    width:40%;
+    
+   
+}
+.best div h1{
+    padding: 20px;
+}
+.best button{
+    color: white;
+    background-color: #9ACD32;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px;
+    
+    
+    font-size: 120% 
+}
+.micimg{
+    display: inline-block;
+    display: inline-block;
+    width:35%;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+button:hover{
+    background-color: #40ff40;
+}
+
+.superior{
+    width:100%;
+    height: auto;
+    padding: 100px;
+    background-color:#222222;
+    
+}
+.superior img {
+    display: inline-block;
+    border-radius:100%;
+    width: 40%;
+    
+}
+.superior div{
+    display:inline-block;
+     width: 50%;
+     color: #777769;
+}
+.superior h1{
+    color: white;
+}
+.superior button{
+    
+    color: #000000;
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px;
+    
+}
+.superior button:hover{
+    background-color:  #c3afaf;
+}
+
+.lastbox{
+    background-color: white;
+    width: 100%;
+    margin:0px;
+    
+}
+/*parent box of links*/
+div.links{
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+
+div.lastbox > div.links>ul{
+    width:100%;
+    padding:100px;
+}
+
+/*targets paragraphs containing links*/
+div.lastbox > div.links> ul> li{
+    display:inline;
+    padding:80px 150px;
+    margin:10px;
+    color:white;
+    background-color: #51a415;
+    opacity:0.7;
+}
+div.lastbox > div.links> ul> li a{
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+    
+}
+
+div.lastbox > div.links> ul> li:hover{
+  background-color:  hsl(69,92,59);
+    padding:75px 145px; 
+   opacity:1;
+   box-shadow: 0px 0px 10px #51a415;
+}
+
+
+
+
+div.sanity {
+    text-align: center;
+    padding:60px;
+    
+}
+.sanity button{
+    
+    color: white;
+    background-color: #9ACD32;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 25px;
+    margin:50px;
+    
+    font-size: 120%
+}
+
+button:hover{
+    background-color: #40ff40;
+}
+div.sanity p{
+    width:80%;
+    margin:0px auto;
+    color:#777777;
+    font-size:150%;
+}
+div.sanity h1{
+    font-weight:normal;
+    font-size: 220%;
+}
+
+.footer{
+    background-color: #9ACD32;
+    text-align: center;
+    margin:0px;
+    color:white;
+    padding:100px;
+    
+}
+.footer h1{
+    font-weight: normal;
+    
+}
+.footer p{
+    font-size:24px;
+    margin: 0px;
+}
+
+.lastfooter{
+    padding:50px;
+    text-align: center;
+    color: grey;
+}
+button:hover{
+    transition:.3s;
+ box-shadow: 0px 0px 100px #40ff40;
+}
+button:active{
+    position:relative;
+    top:2px;
+    left:2px;
+    box-shadow: 0px 0px 100px #40ff40;
+}
